@@ -1,14 +1,21 @@
 ---
 name: Bug report
 about: Create a report to help us improve
-title: "[BUG]"
-labels: ''
+title: "[BUG] "
+labels: bug
 assignees: ''
 
 ---
 
 **Describe the bug**
 A clear and concise description of what the bug is.
+
+**Your Setup (please complete the following information):**
+ - Unity version: 
+ - AVPro Video version: 
+ - Operating system version: 
+ - Device model: 
+ - Video specs (resolution, frame-rate, codec, file size): 
 
 **To Reproduce**
 Steps to reproduce the behavior:
@@ -17,27 +24,11 @@ Steps to reproduce the behavior:
 3. Scroll down to '....'
 4. See error
 
-**Expected behavior**
-A clear and concise description of what you expected to happen.
+**Logs**
+If applicable, add error logs to help explain your problem.
 
 **Screenshots**
 If applicable, add screenshots to help explain your problem.
 
-**Desktop (please complete the following information):**
- - Operating system version
- - Unity version
- - AVPro Video version
-
-**Desktop (please complete the following information):**
- - OS: [e.g. iOS]
- - Browser [e.g. chrome, safari]
- - Version [e.g. 22]
-
-**Smartphone (please complete the following information):**
- - Device: [e.g. iPhone6]
- - OS: [e.g. iOS8.1]
- - Browser [e.g. stock browser, safari]
- - Version [e.g. 22]
-
-**Additional context**
-Add any other context about the problem here.
+**Videos**
+If applicable, add a copy of your video or the URL
