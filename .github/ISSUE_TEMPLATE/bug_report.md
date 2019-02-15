@@ -18,11 +18,9 @@ A clear and concise description of what the bug is.
  - Video specs (resolution, frame-rate, codec, file size): 
 
 **To Reproduce**
-Steps to reproduce the behavior:
-1. Go to '...'
-2. Click on '....'
-3. Scroll down to '....'
-4. See error
+1. 
+2. 
+3. 
 
 **Logs**
 If applicable, add error logs to help explain your problem.
@@ -32,3 +30,6 @@ If applicable, add screenshots to help explain your problem.
 
 **Videos**
 If applicable, add a copy of your video or the URL
+
+### Please DO NOT LINK / ATTACH YOUR PROJECT FILES HERE
+Instead email the link to us unitysupport@renderheads.com
