@@ -6,8 +6,10 @@ daysUntilClose: 7
 exemptLabels:
   - pinned
   - enhancement
+  - enhancement 🚀
   - bug
   - Bug
+  - Bug 🐛
   - HIGH
   - high
 # Label to use when marking an issue as stale
