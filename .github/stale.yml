@@ -5,6 +5,7 @@ daysUntilClose: 7
 # Issues with these labels will never be considered stale
 exemptLabels:
   - pinned
+  - Announcement 🔥
   - enhancement
   - enhancement 🚀
   - bug
