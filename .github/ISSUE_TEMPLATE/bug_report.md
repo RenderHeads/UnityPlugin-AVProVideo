@@ -1,14 +1,14 @@
 ---
-name: Bug report
-about: Create a report to help us improve
+name: Technical issue / Bug report
+about: Ask about technical issues or a report a bug
 title: ''
 labels: triage
 assignees: ''
 
 ---
 
-**Describe the bug**
-A clear and concise description of what the bug is.
+**Describe the issue**
+A clear and concise description of what the issue is.
 
 **Your Setup (please complete the following information):**
  - Unity version: 
