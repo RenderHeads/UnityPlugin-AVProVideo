@@ -1,6 +1,6 @@
 ---
-name: Technical Question
-about: Ask your questions here
+name: Product Question
+about: Ask your non-technical questions here
 title: ''
 labels: question
 assignees: 'kahnivore'
