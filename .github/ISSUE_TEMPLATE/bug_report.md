@@ -12,7 +12,7 @@ A clear and concise description of what the issue is.
 
 **Your Setup (please complete the following information):**
  - Unity version: 
- - AVPro Video version: 
+ - AVPro Video version (number and edition (trial/core/ultra/enterprise)): 
  - Operating system version: 
  - Device model: 
  - Video specs (resolution, frame-rate, codec, file size): 
