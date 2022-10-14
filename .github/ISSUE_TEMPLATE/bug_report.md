@@ -6,6 +6,7 @@ labels: triage
 assignees: ''
 
 ---
+### Please DO NOT LINK / ATTACH YOUR PROJECT FILES HERE
 
 **Describe the issue**
 A clear and concise description of what the issue is.
