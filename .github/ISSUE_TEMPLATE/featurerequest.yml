@@ -1,0 +1,32 @@
+name: Enhancement
+description: "Create a feature request"
+title: "[Enhancement] "
+labels: ["enhancement", "triage"]
+assignees:
+  - Chris-RH
+body:
+  - type: markdown
+    attributes:
+      value: Thanks for taking the time to fill out this feature request!
+  - type: dropdown
+    id: platform
+    attributes:
+      label: Which platform is your feature request for?
+      description: You can select more than one.
+      options:
+        - Windows
+        - Android
+        - macOS
+        - iOS
+        - tvOS
+        - visionOS
+      multiple: true
+    validations:
+      required: false
+  - type: textarea
+    id: request
+    attributes:
+      label: Description
+      description: Please describe your feature request here.
+    validations:
+      required: true

@@ -1,0 +1,138 @@
+name: tvOS Bug Report
+description: "File a bug report for the tvOS platform"
+title: "[tvOS] "
+labels: ["bug", "tvOS", "triage"]
+assignees:
+  - Chris-RH
+body:
+  - type: markdown
+    attributes:
+      value: Thanks for taking the time to fill out this bug report.
+  - type: markdown
+    attributes:
+      value: "## Please do not link to or attach project files here!"
+  - type: markdown
+    attributes:
+      value: Instead please send a link via email to [unitysupprt@renderheads.com](mailto:unitysupport@renderheads.com) quoting this issue in your email's subject (i.e. '[tvOS] Something isn't quite right \#1234') and providing a link to the issue in your message.
+  - type: input
+    id: unity-version
+    attributes:
+      label: Unity version
+      description: The specific version of the Unity editor you are using.
+      placeholder: "e.g. 2021.3.27f1"
+    validations:
+      required: true
+  - type: dropdown
+    id: unity-editor-platform
+    attributes:
+      label: Unity editor platform
+      description: The platform you're using for the Unity editor.
+      options:
+        - Windows
+        - macOS
+    validations:
+      required: true
+  - type: dropdown
+    id: avprovideo-edition
+    attributes:
+      label: AVPro Video edition
+      options:
+        - Trial
+        - Core
+        - Ultra
+    validations:
+      required: true
+  - type: input
+    id: avprovideo-version
+    attributes:
+      label: AVPro Video version
+      description: The version of the AVPro Video plugin you are using.
+      placeholder: "e.g. 3.1.0"
+    validations:
+      required: true
+  - type: dropdown
+    id: device-hardware
+    attributes:
+      label: Device hardware
+      options:
+        - Apple TV HD
+        - Apple TV 4K (1st generation)
+        - Apple TV 4K (2nd generation)
+        - Apple TV 4K (3rd generation)
+    validations:
+      required: true
+  - type: input
+    id: os-version
+    attributes:
+      label: Which tvOS version are you using?
+      placeholder: e.g. 12.5.7
+    validations:
+      required: true
+  - type: dropdown
+    id: texture-format
+    attributes:
+      label: Texture format
+      options:
+        - BGRA
+        - Y Cb Cr 420_OES
+    validations:
+      required: true
+  - type: dropdown
+    id: audio-output-mode
+    attributes:
+      label: Audio output
+      options:
+        - System Direct
+        - Unity
+    validations:
+      required: true
+  - type: textarea
+    id: misc-mediaplayer-configuration
+    attributes:
+      label: Any other Media Player component configuration required to reproduce the issue.
+    validations:
+      required: false
+  - type: dropdown
+    id: components
+    attributes:
+      label: Which output component(s) are you using?
+      options:
+        - Apply to Material
+        - Apply to Mesh
+        - Audio Output
+        - Display IMGUI
+        - Display uGUI
+        - Playlist MediaPlayer
+        - Resolve to RenderTexture
+      multiple: true
+    validations:
+      required: false
+  - type: textarea
+    id: misc-component-configuration
+    attributes:
+      label: Any other component configuration required to reproduce the issue.
+    validations:
+      required: false
+  - type: textarea
+    id: issue
+    attributes:
+      label: The issue
+      description: Please describe the issue, how to reproduce it and what you expected the outcome to be.
+    validations:
+      required: true
+  - type: textarea
+    id: media
+    attributes:
+      label: Media information
+      description: Please provide information about the media you're trying to play along with any links to media demonstrating the issue. If you do not want to make these public, please send any links via email to [unitysupprt@renderheads.com](mailto:unitysupport@renderheads.com) quoting this issue in your email's subject (i.e. '[tvOS] Something isn't quite right \#1234') and providing a link to the issue in your message.
+      placeholder: e.g. https://example.com/video/playlist.m3u8
+    validations:
+      required: false
+  - type: textarea
+    id: logs
+    attributes:
+      label: Log output
+      description: Please provide any relevant log output here.
+      render: shell
+    validations:
+      required: false

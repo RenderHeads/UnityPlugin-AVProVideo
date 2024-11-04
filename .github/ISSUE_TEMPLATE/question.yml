@@ -1,0 +1,42 @@
+name: Question
+description: "Ask a question"
+title: "[Question] "
+labels: ["question", "triage"]
+assignees:
+  - Chris-RH
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for filling out this question form!
+  - type: input
+    id: avprovideo-version
+    attributes:
+      label: AVPro Video Version
+      description: The version of the AVPro Video plugin your question is about.
+      placeholder: "example: 3.1.0-trial"
+    validations:
+      required: false
+  - type: dropdown
+    id: platform
+    attributes:
+      label: Which platform is your question for?
+      description: You can select more than one.
+      options:
+        - Windows
+        - Android
+        - macOS
+        - iOS
+        - tvOS
+        - visionOS
+      multiple: true
+    validations:
+      required: false
+  - type: textarea
+    id: request
+    attributes:
+      label: Your question
+      description: Ask your question here
+      placeholder: How do I...
+    validations:
+      required: true
