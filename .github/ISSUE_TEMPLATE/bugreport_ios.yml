@@ -121,7 +121,7 @@ body:
     id: media
     attributes:
       label: Media information
-      description: Please provide information about the media you're trying to play along with any links to media demonstrating the issue. If you do not want to make these public, please send any links via email to [unitysupprt@renderheads.com](mailto:unitysupport@renderheads.com) quoting this issue in your email's subject (i.e. '[iOS] Something isn't quite right \#1234') and providing a link to the issue in your message.
+      description: Please provide information about the media you're trying to play along with any links to media demonstrating the issue. If you do not want to make these public, please send any links via email to [unitysupport@renderheads.com](mailto:unitysupport@renderheads.com) quoting this issue in your email's subject (i.e. '[iOS] Something isn't quite right \#1234') and providing a link to the issue in your message.
       placeholder: e.g. https://example.com/video/playlist.m3u8
     validations:
       required: false
