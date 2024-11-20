@@ -13,7 +13,7 @@ body:
       value: "## Please do not link to or attach project files here!"
   - type: markdown
     attributes:
-      value: Instead please send a link via email to [unitysupprt@renderheads.com](mailto:unitysupport@renderheads.com) quoting this issue in your email's subject (i.e. '[macOS] Something isn't quite right \#1234') and providing a link to the issue in your message.
+      value: Instead please send a link via email to [unitysupport@renderheads.com](mailto:unitysupport@renderheads.com) quoting this issue in your email's subject (i.e. '[macOS] Something isn't quite right \#1234') and providing a link to the issue in your message.
   - type: input
     id: unity-version
     attributes:
