@@ -7,8 +7,7 @@ assignees:
 body:
   - type: markdown
     attributes:
-      value: |
-         ##Please note: This form is only for questions about AVPro Video, it is NOT for bug reports.
+      value: "## Please note: This form is only for questions about AVPro Video, it is NOT for bug reports."
   - type: input
     id: avprovideo-version
     attributes:
