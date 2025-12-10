@@ -8,7 +8,7 @@ body:
   - type: markdown
     attributes:
       value: |
-        Thanks for filling out this question form!
+         ##Please note: This form is only for questions about AVPro Video, it is NOT for bug reports.
   - type: input
     id: avprovideo-version
     attributes:
